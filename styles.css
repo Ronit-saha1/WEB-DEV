@@ -1,0 +1,90 @@
+#Hero {
+    height: 500px;
+    background-image: url("/images/places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 500px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top: 150px;
+}
+
+#hero-content h1 {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    font-size: 22px;
+    background-color: rgb(255, 251, 0);
+    padding: 8px 20px;
+    font-size: bold;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+#Highlights1 {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(55, 188, 198));
+}
+
+#Highlights {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(59, 65, 64);
+}
+
+.Highlights p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+}
+
+.Highlights img {
+    width: 400px;
+    height: 200px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+strong {
+    color: rgb(0, 160, 117);
+}
